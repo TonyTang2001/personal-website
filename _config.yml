@@ -17,14 +17,14 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
   limit: 8
   exclude:
     archived: false
-    forks: true
+    forks: false
     projects:
     # - repo-name
     - AcaTool_Resource_NewsreportSearch
